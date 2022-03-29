@@ -1,6 +1,13 @@
 #Authors: Rachel Yong (01382292); Benjamin Yong, Cao Wanyue, Tian Mingze, Wei Hao
 
+#player dictionary
+players = {1:{"name":"Bob","choice":"X","pos":[],"score":0},2:{"name":"Tom","choice":"0","pos":[],"score":0}}
+start_player=1 #or 2
+cur_player=1 #or 2
+
+
 # Function to print Tic Tac Toe
+
 def print_tic_tac_toe(values):
 	print("\n")
 	print("\t     |     |")
